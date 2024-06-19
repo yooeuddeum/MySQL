@@ -19,8 +19,9 @@ db.serialize(() => {
 
     // 데이터 삽입
     let stmt = db.prepare("INSERT INTO users (name, email) VALUES (?, ?)");
-    stmt.run("John Doe", "john.doe@example.com");
-    stmt.run("Jane Smith", "jane.smith@example.com");
+    stmt.run("cyber func", "www.naver.com");
+    stmt.run("bono bono", "www.google.com");
+    stmt.run("A", "www.daum.net");
     stmt.finalize();
 
     // 데이터 조회
