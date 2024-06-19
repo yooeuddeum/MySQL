@@ -40,3 +40,13 @@ db.close((err) => {
     console.log('Close the database connection.');
 });
 
+
+//sqlite3.Database를 사용하여 데이터베이스에 연결합니다.
+//CREATE TABLE IF NOT EXISTS 구문을 사용하여 users 테이블을 생성합니다.
+//INSERT INTO 구문을 사용하여 데이터를 삽입합니다.
+//SELECT 구문을 사용하여 데이터를 조회합니다.
+//마지막으로 데이터베이스 연결을 종료합니다.
+// 추가적으로 명령어 및 기능적인 부분을 찾아보고 코드 구조 해석 해보기★
+
+
+
