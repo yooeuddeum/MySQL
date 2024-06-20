@@ -22,6 +22,7 @@ db.serialize(() => {
     stmt.run("cyber func", "www.naver.com");
     stmt.run("bono bono", "www.google.com");
     stmt.run("A", "www.daum.net");
+    stmt.run("voice num", "solid black commit");
     stmt.finalize();
 
     // 데이터 조회
